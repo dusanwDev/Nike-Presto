@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./images/iconfinder_230_Nike_logo_4375014.png" />
+    <script
+      src="https://kit.fontawesome.com/c81f9c71f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="left-side-header">
+          <ul>
+            <li>
+              <a class="scroll-link" id="fire-link" href="#hot-section"
+                >Hot
+                <img
+                  id="fire-img"
+                  src="./images/iconfinder_57_5243645 (1).png"
+                  alt="fire"
+                />
+              </a>
+            </li>
+            <li>
+              <a class="scroll-link middle" href="#fall">Fall 2020</a>
+            </li>
+            <li>
+              <a class="scroll-link" id="blm" href="#black-lives-matter"
+                >BLM<i class="fas fa-fist-raised"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="center-side-header">
+          <div class="logo-img-wrapper">
+            <img src="./images/iconfinder_230_Nike_logo_4375014.png" alt="" />
+          </div>
+        </div>
+        <div class="right-side-header">
+          <ul>
+            <li><a class="scroll-link" href="#shoes">Shoes</a></li>
+            <li><a class="middle scroll-link" href="#hodies">Hoddies</a></li>
+            <li><a class="scroll-link" href="#jackets">Jackets</a></li>
+            <li>
+              <a class="cart-fixed" href="JavaScript:void(0)"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </li>
+            <li>
+              <a class="heart-fixed" href="JavaScript:void(0)"
+                ><i class="fas fa-heart"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <a
+            id="cart-icon-hamb"
+            class="cart-icon-link"
+            href="JavaScript:void(0)"
+          >
+            <i class="fas fa-shopping-cart" aria-hidden="true"></i
+          ></a>
+
+          <a id="hamb-heart" class="heart-icon-link" href="JavaScript:void(0)"
+            ><i class="fas fa-heart" aria-hidden="true"></i
+          ></a>
+          <a class="hamburger-btn" href="JavaScript:void(0)"
+            ><i class="fas fa-bars"></i
+          ></a>
+        </div>
+      </nav>
+      <div class="dropdown-menu">
+        <ul class="dropdown-links">
+          <li><a class="scroll-link" href="#hot-section">Hot</a></li>
+          <li><a class="scroll-link" href="#black-lives-matter">BLM</a></li>
+          <li><a class="scroll-link" href="#shoes">Shoes</a></li>
+          <li><a class="scroll-link" href="#hodies">Hoddies</a></li>
+          <li><a class="scroll-link" href="#jackets">Jackets</a></li>
+          <li><a class="scroll-link" href="#women">Female</a></li>
+          <li><a class="scroll-link" href="#men">Male</a></li>
+          <li><a class="scroll-link" href="#kids">Kids</a></li>
+          <li>
+            <a class="scroll-link" href="#fall">Fall 2020</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="tablet-size-nav">
+        <a class="search-icon-link" href="JavaScript:void(0)"
+          ><i class="fas fa-search" aria-hidden="true"></i> Search</a
+        >
+        <a class="cart-icon-link" href="JavaScript:void(0)"
+          ><i class="fas fa-shopping-cart" aria-hidden="true"></i>Your Cart</a
+        >
+        <a class="heart-icon-link" href="JavaScript:void(0)"
+          ><i class="fas fa-heart" aria-hidden="true"></i>Favorites</a
+        >
+      </nav>
+      <aside class="cart-menu">
+        <div class="title-container">
+          <h3>Your Cart</h3>
+          <h3 class="cancel">X</h3>
+        </div>
+        <div class="wrapper-menu">
+          <div class="sum-wrapper">
+            <p>Total:</p>
+            <p id="total"></p>
+          </div>
+        </div>
+      </aside>
+
+      <aside class="favorites">
+        <div class="favorites-title-container">
+          <h3>Your Favorites</h3>
+          <h3 id="favorites-cancel">X</h3>
+        </div>
+        <div class="favorites-wrapper-menu"></div>
+      </aside>
+    </header>
+    <section class="hero">
+      <div class="left-box">
+        <ul>
+          <li>
+            <a class="scroll-link" id="female-icon-link" href="#women"
+              ><i class="fas fa-venus"></i> Female</a
+            >
+          </li>
+          <li>
+            <a class="scroll-link" id="man-icon-link" href="#men"
+              ><i class="fas fa-mars"></i>Male</a
+            >
+          </li>
+          <li>
+            <a class="scroll-link" id="kids-icon-link" href="#kids"
+              ><i class="fas fa-child"></i>Kids</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="hero-image-wrapper">
+        <h1><span id="new">-NEW-</span> NIKE PRESTO WMNS</h1>
+        <div class="hero-image-container">
+          <img id="hero-img" src="./images/Untitled-1.png" alt="" />
+        </div>
+      </div>
+      <div class="right-box">
+        <ul>
+          <li>
+            <a class="cart-icon-link" href="JavaScript:void(0)"
+              ><i class="fas fa-shopping-cart"></i>Your Cart</a
+            >
+          </li>
+          <li>
+            <a class="heart-icon-link" href="JavaScript:void(0)"
+              ><i class="fas fa-heart"></i>Favorites</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <aside id="search">
+      <div class="inpout-container">
+        <input type="text" name="" id="input" />
+        <i id="input-search" class="fas fa-search"></i>
+      </div>
+    </aside>
+
+    <section id="hot-section">
+      <div class="header-hot-section">
+        <h1 class="hot-h1">HOT</h1>
+        <img
+          id="fire-img-hot"
+          src="./images/iconfinder_57_5243645 (1).png"
+          alt="fire"
+        />
+      </div>
+      <div class="cards-outer">
+        <a class="left-btn" href="JavaScript:void(0)"
+          ><i class="fas fa-chevron-left"></i
+        ></a>
+        <div class="card-wrapper">
+          <div class="card-hot active-hot">
+            <div class="img-container">
+              <img src="./images/shoes-one.PNG" alt="" />
+            </div>
+            <div class="text">
+              <div class="itemheading">
+                <h3>- Nike Airforce One -</h3>
+              </div>
+              <div class="price">
+                <h2>130$</h2>
+              </div>
+            </div>
+            <div class="item-btn">
+              <a class="btn-to-cart" href=""
+                >ADD TO CARD<i class="fas fa-shopping-cart"></i
+              ></a>
+              <a class="fav-btn" href="JavaScript:void(0)"
+                >ADD TO FAVORITES <i class="fas fa-heart"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card-hot hot-middle">
+            <div class="img-container">
+              <img src="./images/jacket-one.PNG" alt="" />
+            </div>
+            <div class="text">
+              <div class="itemheading">
+                <h3>- Older Kids Woven Tracksuit -</h3>
+              </div>
+              <div class="price">
+                <h2>214$</h2>
+              </div>
+            </div>
+            <div class="item-btn">
+              <a class="btn-to-cart" href=""
+                >ADD TO CARD<i class="fas fa-shopping-cart"></i
+              ></a>
+              <a class="fav-btn" href=""
+                >ADD TO FAVORITES <i class="fas fa-heart"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card-hot">
+            <div class="img-container">
+              <img src="./images/Nike Air Max 270 React SE-women.PNG" alt="" />
+            </div>
+            <div class="text">
+              <div class="itemheading">
+                <h3>- Nike Air Max 270 React SE -</h3>
+              </div>
+              <div class="price">
+                <h2>219$</h2>
+              </div>
+            </div>
+            <div class="item-btn">
+              <a class="btn-to-cart" href=""
+                >ADD TO CARD<i class="fas fa-shopping-cart"></i
+              ></a>
+              <a class="fav-btn" href=""
+                >ADD TO FAVORITES <i class="fas fa-heart"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a class="right-btn" href="Javascript:void(0)"
+          ><i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </section>
+    <main>
+      <section id="shoes">
+        <div class="header-container">
+          <h1>SHOES</h1>
+        </div>
+        <div class="card-wrapper">
+          <a class="left-btn" href="JavaScript:void(0)"
+            ><i class="fas fa-chevron-left"></i
+          ></a>
+          <div class="card-container">
+            <div class="card-shoes active">
+              <div class="img-container">
+                <img src="./images/shoes-one.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Airforce One -</h3>
+                </div>
+                <div class="price">
+                  <h2>130$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href="JavaScript:void(0)"
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-shoes middle-shoes active">
+              <div class="img-container">
+                <img src="./images/shoes-two.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Air Max Plus -</h3>
+                </div>
+                <div class="price">
+                  <h2>210$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-shoes active">
+              <div class="img-container">
+                <img src="./images/shoes-three.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Blaze Mid 77 -</h3>
+                </div>
+                <div class="price">
+                  <h2>300$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-shoes">
+              <div class="img-container">
+                <img src="./images/shoes-four.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Air Max 270 -</h3>
+                </div>
+                <div class="price">
+                  <h2>120$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-shoes middle-shoes">
+              <div class="img-container">
+                <img src="./images/shoes-five.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Tanjun -</h3>
+                </div>
+                <div class="price">
+                  <h2>220$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-shoes">
+              <div class="img-container">
+                <img src="./images/shoes-six.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Airforce One Shadow -</h3>
+                </div>
+                <div class="price">
+                  <h2>180$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a class="right-btn" href="Javascript:void(0)"
+            ><i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section id="hodies">
+        <div class="header-container">
+          <h1>HODDIES</h1>
+        </div>
+        <div class="card-wrapper">
+          <a class="left-btn" href="JavaScript:void(0)"
+            ><i class="fas fa-chevron-left"></i
+          ></a>
+          <div class="card-container">
+            <div class="card-hoodie active">
+              <div class="img-container">
+                <img src="./images/hodie-one.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Sportswear -</h3>
+                </div>
+                <div class="price">
+                  <h2>124$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-hoodie middle-shoes active">
+              <div class="img-container">
+                <img src="./images/hodie-two.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- FFF -</h3>
+                </div>
+                <div class="price">
+                  <h2>234$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-hoodie active">
+              <div class="img-container">
+                <img src="./images/hodie-three.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Sportwear Tech Fleece -</h3>
+                </div>
+                <div class="price">
+                  <h2>110$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-hoodie">
+              <div class="img-container">
+                <img src="./images/hodie-four.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Pro -</h3>
+                </div>
+                <div class="price">
+                  <h2>98$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-hoodie middle-shoes">
+              <div class="img-container">
+                <img src="./images/hodie-six.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Threma -</h3>
+                </div>
+                <div class="price">
+                  <h2>178$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-hoodie">
+              <div class="img-container">
+                <img src="./images/hodie-five.png" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Sporswear -</h3>
+                </div>
+                <div class="price">
+                  <h2>186$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a class="right-btn" href="Javascript:void(0)"
+            ><i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section id="jackets">
+        <div class="header-container">
+          <h1>Jackets</h1>
+        </div>
+        <div class="card-wrapper">
+          <a class="left-btn" href="JavaScript:void(0)"
+            ><i class="fas fa-chevron-left"></i
+          ></a>
+          <div class="card-container">
+            <div class="card-jacket active">
+              <div class="img-container">
+                <img src="./images/jacket-one.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Older Kids Woven Tracksuit -</h3>
+                </div>
+                <div class="price">
+                  <h2>214$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-jacket middle-shoes active">
+              <div class="img-container">
+                <img src="./images/jacket-two.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Older Kids Tracksuit -</h3>
+                </div>
+                <div class="price">
+                  <h2>153$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-jacket active">
+              <div class="img-container">
+                <img src="./images/jacket-three.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Older Kids Tracksuit Girl's -</h3>
+                </div>
+                <div class="price">
+                  <h2>283$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-jacket">
+              <div class="img-container">
+                <img src="./images/jacket-four.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- FFF Strike -</h3>
+                </div>
+                <div class="price">
+                  <h2>205$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-jacket middle-shoes">
+              <div class="img-container">
+                <img src="./images/jacket-five.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Portugal Strike -</h3>
+                </div>
+                <div class="price">
+                  <h2>296$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-jacket">
+              <div class="img-container">
+                <img src="./images/jacket-six.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- England Strike -</h3>
+                </div>
+                <div class="price">
+                  <h2>452$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a class="right-btn" href="Javascript:void(0)"
+            ><i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section id="black-lives-matter">
+        <div class="blmheader">
+          <h1>#BE THE CHANGE</h1>
+        </div>
+        <div class="black-lives-matter-wrapper">
+          <div class="blm-text">
+            <h1>COMMITMENT</h1>
+            <p>
+              In June, we shared our promise to do better in supporting our
+              Black employees and Black communities by creating meaningful and
+              lasting change first and foremost within our brand and further
+              across sport culture.
+            </p>
+            <a href="Javascript:void(0)">BE THE CHANGE</a>
+          </div>
+          <div class="blm-img">
+            <img src="./images/clay-banks-_2Y4C5ZnYs4-unsplash.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="kids">
+        <div class="header-container">
+          <h1>Kids</h1>
+        </div>
+        <div class="card-wrapper">
+          <a class="left-btn" href="JavaScript:void(0)"
+            ><i class="fas fa-chevron-left"></i
+          ></a>
+          <div class="card-container">
+            <div class="card-kids active">
+              <div class="img-container">
+                <img src="./images/Lebron soldier XIV.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Lebron soldier XIV -</h3>
+                </div>
+                <div class="price">
+                  <h2>29$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-kids middle-shoes active">
+              <div class="img-container">
+                <img src="./images/Nike airforce One Lv8.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike airforce One Lv8 -</h3>
+                </div>
+                <div class="price">
+                  <h2>40$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-kids active">
+              <div class="img-container">
+                <img src="./images/Nike airforce One Lv87.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike airforce One Lv87 -</h3>
+                </div>
+                <div class="price">
+                  <h2>23$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-kids">
+              <div class="img-container">
+                <img src="./images/Nike litle posite V.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike litle posite V -</h3>
+                </div>
+                <div class="price">
+                  <h2>79$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-kids middle-shoes">
+              <div class="img-container">
+                <img src="./images/Nike Sportswear Club Fleece.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Sportswear Club Fleece -</h3>
+                </div>
+                <div class="price">
+                  <h2>89$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-kids">
+              <div class="img-container">
+                <img src="./images/Nike sportswear Tech Fleece.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike sportswear Tech Fleece -</h3>
+                </div>
+                <div class="price">
+                  <h2>66$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a class="right-btn" href="Javascript:void(0)"
+            ><i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section id="women">
+        <div class="header-container">
+          <h1>WOMEN</h1>
+        </div>
+        <div class="card-wrapper">
+          <a class="left-btn" href="JavaScript:void(0)"
+            ><i class="fas fa-chevron-left"></i
+          ></a>
+          <div class="card-container">
+            <div class="card-women active">
+              <div class="img-container">
+                <img
+                  src="./images/Nike Air Max 270 React SE-women.PNG"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Air Max 270 React SE -</h3>
+                </div>
+                <div class="price">
+                  <h2>219$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-women middle-shoes active">
+              <div class="img-container">
+                <img src="./images/Nike Air VaporMax Plus-women.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Air VaporMax Plus -</h3>
+                </div>
+                <div class="price">
+                  <h2>404$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-women active">
+              <div class="img-container">
+                <img
+                  src="./images/Nike Air Zoom Spiridon Cage 2-women.PNG"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>-Nike AirZoom Spiridon Cage 2-</h3>
+                </div>
+                <div class="price">
+                  <h2>223$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-women">
+              <div class="img-container">
+                <img src="./images/Nike city ready-women.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike City Ready -</h3>
+                </div>
+                <div class="price">
+                  <h2>329$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-women middle-shoes">
+              <div class="img-container">
+                <img src="./images/Nike Dri-FIT Get Fit-women.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Dri-FIT Get Fit -</h3>
+                </div>
+                <div class="price">
+                  <h2>389$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-women">
+              <div class="img-container">
+                <img
+                  src="./images/Nike Sportswear Esential - women.PNG"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Sportswear Esential -</h3>
+                </div>
+                <div class="price">
+                  <h2>266$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a class="right-btn" href="Javascript:void(0)"
+            ><i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section id="men">
+        <div class="header-container">
+          <h1>MAN</h1>
+        </div>
+        <div class="card-wrapper">
+          <a class="left-btn" href="JavaScript:void(0)"
+            ><i class="fas fa-chevron-left"></i
+          ></a>
+          <div class="card-container">
+            <div class="card-man active">
+              <div class="img-container">
+                <img src="./images/Kyrie-man.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Kyrie -</h3>
+                </div>
+                <div class="price">
+                  <h2>129$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-man middle-shoes active">
+              <div class="img-container">
+                <img
+                  src="./images/Nike Sportswear Club Fence -Man.PNG"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Sportswear Club Fence -</h3>
+                </div>
+                <div class="price">
+                  <h2>204$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-man active">
+              <div class="img-container">
+                <img src="./images/KD 13-men.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- KD13 -</h3>
+                </div>
+                <div class="price">
+                  <h2>323$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-man">
+              <div class="img-container">
+                <img src="./images/Nike Air Force 1 '07 LV8-men.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Air Force 1 '07 LV8 -</h3>
+                </div>
+                <div class="price">
+                  <h2>329$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-man middle-shoes">
+              <div class="img-container">
+                <img src="./images/Nike Air vapormax-men.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike Air Vapormax -</h3>
+                </div>
+                <div class="price">
+                  <h2>289$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card-man">
+              <div class="img-container">
+                <img src="./images/Nike SB Nyjah Free 2-men.PNG" alt="" />
+              </div>
+              <div class="text">
+                <div class="itemheading">
+                  <h3>- Nike SB Nyjah Free 2 -</h3>
+                </div>
+                <div class="price">
+                  <h2>236$</h2>
+                </div>
+              </div>
+              <div class="item-btn">
+                <a class="btn-to-cart" href=""
+                  >ADD TO CARD<i class="fas fa-shopping-cart"></i
+                ></a>
+                <a class="fav-btn" href=""
+                  >ADD TO FAVORITES <i class="fas fa-heart"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a class="right-btn" href="Javascript:void(0)"
+            ><i class="fas fa-chevron-right"></i
+          ></a>
+        </div>
+      </section>
+
+      <section id="fall">
+        <div class="overlay">
+          <div class="header-container">
+            <h1 class="fall-heading">FALL 2020</h1>
+          </div>
+          <div class="fall-wrapper">
+            <div class="fall-text">
+              <h2>
+                Women’s Exclusive Air Innovation Brings Nike Air Max to New
+                Heights this Fall
+              </h2>
+              <p>
+                July 20, 2020 - As Nike continues to keep fresh one of its most
+                iconic lines with classic and new Air Max silhouettes, the
+                Swoosh is dropping five different Air Max units for Fall 2020.
+                The assortment is led by a new women’s exclusive silhouette and
+                a 1-to-1 replica of the Nike Air Max III.
+              </p>
+              <a href="JavaScript:void(0)">BE PREPARED</a>
+            </div>
+            <div class="img-fall">
+              <img src="./images/fall.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-text">
+        <p class="middle-text-footer">
+          @2020 Dusan Nikolic All right reserved.
+        </p>
+        <p>This site is for NON-COMMERCIAL purpose ONLY.</p>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
